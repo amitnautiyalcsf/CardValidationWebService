@@ -59,19 +59,7 @@ public class CardObject
 	public final void setCvv(int cvv) {
 		this.cvv = cvv;
 	}
-//	public boolean validate(long cardNo2, String name2, int cvv2) {
-//		
-//		Date today= new Date();
-//		int diff= today.compareTo(expiry);
-//		
-//		if(cardNo2==cardNo && name2.equals(name) && cvv2==cvv && diff<0)
-//		{
-//			return true;
-//			
-//		}
-//		
-//		return false;
-//	}
+
 	public boolean validate(long cardNo2, String name2, int cvv2) {
 	
 		Date today= new Date();
